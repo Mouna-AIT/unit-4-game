@@ -117,3 +117,75 @@
     margin-right: 20%;
     font-size: 1.5em;
 }
+
+/*940px*/
+
+@media (max-width: 940px) {
+
+    .random-number {
+        margin-top: 3%;
+    }
+
+    .jewel {
+       margin-right: -1%;
+    }
+
+    .jewel:nth-child(4) {
+        margin-right: 8px;
+    }
+
+   
+}
+
+/*640px*/
+
+@media (max-width: 640px) {
+
+    .crystal-array {
+       width: 64%;
+       margin-left: 19%
+    }
+
+   
+}
+
+/*375px*/
+
+@media (max-width: 375px) {
+
+    .header {
+        width: 91%;
+        margin-left: 2%;
+    }
+
+    .instructions {
+        margin-left: 8%;
+    }
+
+   .random-number {
+       width: 32%;
+       margin-left: 32%;
+   }
+
+   .crystal-array {
+      width: 92%;
+      margin-left: 4%;
+   }
+
+   .jewel {
+       height: 70px;
+       width: 70px;
+   }
+
+   .total-score {
+       margin-left: 8%;
+       width: 35%;
+
+   }
+
+   .wins-loses {
+       width: 34%;
+       margin-right: 9%;
+   }
+
+}

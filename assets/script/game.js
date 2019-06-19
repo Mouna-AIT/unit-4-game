@@ -16,8 +16,8 @@ $(document).ready(() => {
 
     //script determines if player wins or loses.
     
-    var wins = 0; //#wins
-    var losses = 0;  //#losses
+    var wins = 0; 
+    var losses = 0;  
 
     var totScore = 0;
     $('#totScore').text(totScore);
@@ -94,7 +94,8 @@ $(document).ready(() => {
 
    
     
-    //game restarst.
+    //game restarst:
+
     function reset() {
         totScore = 0;
         $('#totScore').text(totScore);
